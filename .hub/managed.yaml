@@ -1,0 +1,47 @@
+parameters:
+  - name: application.bucket.endpoint
+    value: 'https://s3.us-east-2.amazonaws.com/'
+  - name: application.bucket.name
+    value: agilestacks.smoke-arkadi-aws02.dev.superhub.io
+  - name: application.bucket.region
+    value: us-east-2
+  - name: application.description
+    value: Kubeflow pipeline
+  - name: application.humanName
+    value: kube-app-01
+  - name: application.name
+    value: kube-app-01
+  - name: author.email
+    value: arkadi@agilestacks.com
+  - name: author.id
+    value: 00uaj37anmSq5VGE30h7
+  - name: author.name
+    value: Arkadi Shishlov
+  - name: author.organization
+    value: ASI
+  - name: component.dex.okta.appId
+    value: 0oantwurhbGpwPkec0h7
+  - name: component.dex.okta.clientId
+    value: 0oantwurhbGpwPkec0h7
+  - name: component.dex.okta.issuer
+    value: 'https://dev-458481.oktapreview.com'
+  - name: component.github.repository.name
+    value: kube-app-01
+  - name: component.github.repository.organization
+    value: asibot
+outputs:
+  - name: application.bucket.endpoint
+  - name: application.bucket.name
+  - name: application.bucket.region
+  - name: application.description
+  - name: application.humanName
+  - name: application.name
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
